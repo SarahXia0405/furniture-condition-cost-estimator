@@ -6,6 +6,17 @@ GitHub: @SarahXia0405
 
 This project is an end-to-end computer vision pipeline that estimates the **repair / replacement cost** of furniture from a single **room photograph**.
 
+
+## 0 Example
+
+<img width="1060" height="776" alt="image" src="https://github.com/user-attachments/assets/d03e3903-8638-472a-8f17-c736114a335c" />
+
+<img width="2154" height="1098" alt="image" src="https://github.com/user-attachments/assets/71b500fa-a0b6-413f-9011-efcf35c01122" />
+
+<img width="2154" height="378" alt="image" src="https://github.com/user-attachments/assets/7f0b5786-8050-4c8b-b0a0-a11faff0cc5f" />
+
+
+
 Given an input image (e.g., a living room), the system will:
 
 1. Detect furniture objects (TV, couch, chair, bed, plants, etc.).
@@ -144,4 +155,3 @@ Each stage is independent, so you can upgrade or replace components (YOLO → DE
 Room → YOLOv8 → Crops → Condition Model → Material Model → Action Decision → Cost Estimate → Aggregated Report
 ```
 ---
-
